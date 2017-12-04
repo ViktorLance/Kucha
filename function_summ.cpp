@@ -4,5 +4,7 @@
 
 double Summ(double a, double c)
 {
+	
 	return a + c;
+
 }
