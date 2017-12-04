@@ -4,5 +4,7 @@
 
 double Vich(double a, double c)
 {
+	
 	return a - c;
+	
 }
