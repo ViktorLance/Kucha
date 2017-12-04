@@ -2,7 +2,7 @@
 #include <cmath>
 #include "stdafx.h"
 
-double Um(double a, double c)
+double Deli(double a, double c)
 {
 	
 	return a / c;

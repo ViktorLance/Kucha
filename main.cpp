@@ -27,17 +27,18 @@ int main()
 	}
 	case 3:
 	{ // *
-	 //cout << ""<< endl; 
+		cout << Um(a, b) << endl;
 		break;
 	}
 	case 4:
 
 	{ // /
-	//cout << a << " / " << b << " = " << a / b << endl; 
+		cout << Deli(a, b) << endl;
 		break;
 	}
+	default:
+		cout << "Nepravilni vvod" << endl;
 	}
-	//cout << "" << endl;
 	system("pause");
 	return 0;
 }
