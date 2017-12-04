@@ -16,31 +16,29 @@ int main()
 	switch (count)
 	{
 	case 1:
-	 { // +
+	{ // +
 		cout << Summ(a, b) << endl;
 		break;
-	 }
+	}
 	case 2:
-	 { // -
+	{ // -
 		cout << Vich(a, b) << endl;
 		break;
-	 }
+	}
 	case 3:
-	 { // *
-	 cout << Um(a, b) << endl; 
+	{ // *
+		cout << Um(a, b) << endl;
 		break;
-	 }
+	}
 	case 4:
 
-	 { // /
-	cout << Deli (a / b) << endl; 
+	{ // /
+		cout << Deli(a, b) << endl;
 		break;
-	 }
 	}
-	
-	default: 
-        cout << "Nepravilni vvod" << endl;
-		
+	default:
+		cout << "Nepravilni vvod" << endl;
+	}
 	system("pause");
 	return 0;
 }
