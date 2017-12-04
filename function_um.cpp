@@ -2,9 +2,9 @@
 #include <cmath>
 #include "stdafx.h"
 
-double Vich(double a, double c)
+double Um(double a, double c)
 {
 	
-	return a - c;
+	return a * c;
 	
 }
